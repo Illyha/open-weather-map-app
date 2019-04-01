@@ -62,9 +62,10 @@ class App extends Component {
        {
          PLACES.map((place,index)=>(
            <button key={index}
+           className={"button " + (index%2===0?"is-danger":"is-primary")}
              onClick={()=>{
                this.setState({activePlace : index})
-               }}class = "button is-primary">
+               }}>
              {place.name}
              </button>
          ))}
