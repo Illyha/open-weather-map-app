@@ -77,7 +77,7 @@ class App extends Component {
 const PLACES = [
   {name:"Moscow",zip:"101000"},
   {name:"New York",zip:"10001"},
-  {name:"Seattle",zip:"98148"},
+  {name:"Seattle",zip:"98101"},
   {name:"San-Francisco",zip:"94102"},
 ];
 
